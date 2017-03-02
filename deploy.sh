@@ -22,7 +22,7 @@ cd dist
 git init && \
 
 git config user.name "Travis CI"
-git config user.email "vincent.ogloblinsky@gmail.com"
+git config user.email "${COMMIT_AUTHOR_EMAIL}"
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
