@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build:prod": "ng build --target=production --environment=prod --base-href=./",
+    "build:prod": "ng build --target=production --environment=prod --base-href=./web-development-conferences-visual-overview/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
