@@ -7,6 +7,15 @@ body {
     margin: 0;
     padding: 0;
     background: $white;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    font-size: 22px;
 }
 
 @import 'styles/spinner';
