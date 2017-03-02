@@ -19,7 +19,6 @@ SHA=`git rev-parse --verify HEAD`
 # Now let's go have some fun with the cloned repo
 cd dist
 
-rm -R .git
 git init && \
 
 git config user.name "Travis CI"
