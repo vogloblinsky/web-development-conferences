@@ -1,0 +1,17 @@
+app {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.top-buttons-group {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+
+    .mat-raised-button {
+        display: block;
+    }
+}
