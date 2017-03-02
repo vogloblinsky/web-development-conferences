@@ -16,22 +16,12 @@ REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 SHA=`git rev-parse --verify HEAD`
 
-# Clone the existing gh-pages for this repo into out/
-# Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deply)
-git clone $REPO dist
-cd dist
-git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-cd ..
-
-# Clean out existing contents
-rm -rf dist/**/* || exit 0
-
-# Run our compile script
-
-npm run build:prod
-
 # Now let's go have some fun with the cloned repo
 cd dist
+
+rm -R .git
+git init && \
+
 git config user.name "Travis CI"
 git config user.email "vincent.ogloblinsky@gmail.com"
 
@@ -43,8 +33,8 @@ fi
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
-git add .
-git commit -m "Deploy to GitHub Pages: ${SHA}"
+git add . && \
+git commit -m "Deploy to GitHub Pages: ${SHA}" && \
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
 ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
