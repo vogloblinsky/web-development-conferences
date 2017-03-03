@@ -1,15 +1,15 @@
 <div class="top-buttons-group">
-    <div [(ngModel)]="model" ngbRadioGroup name="radioBasic">
-        <label class="btn btn-primary">
-            <input type="radio" [value]="1"> Timeline
-        </label>
-        <label class="btn btn-primary">
-            <input type="radio" value="middle"> Map
-        </label>
-        <label class="btn btn-primary">
-            <input type="radio" [value]="false"> List
-        </label>
+    <div ngbRadioGroup>
+        <a routerLink="/timeline" class="btn btn-primary" routerLinkActive="active">
+            Timeline
+        </a>
+        <a routerLink="/map" class="btn btn-primary" routerLinkActive="active">
+            Map
+        </a>
+        <a routerLink="/list" class="btn btn-primary" routerLinkActive="active">
+            List
+        </a>
     </div>
 </div>
 
-<div id="visualization"></div>
+<router-outlet></router-outlet>

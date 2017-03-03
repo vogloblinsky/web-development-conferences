@@ -7,6 +7,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 
+import { AppRoutingModule } from './app-routing.module';
+
+import { TimelineModule } from './views/timeline/';
+import { MapModule } from './views/map/';
+
 @NgModule({
     declarations: [
         AppComponent
@@ -15,7 +20,12 @@ import { AppComponent } from './app.component';
         BrowserModule,
         FormsModule,
         HttpModule,
-        NgbModule.forRoot()
+        NgbModule.forRoot(),
+
+        TimelineModule,
+        MapModule,
+
+        AppRoutingModule
     ],
     providers: [],
     bootstrap: [AppComponent]
