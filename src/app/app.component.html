@@ -1,5 +1,13 @@
 <div class="top-buttons-group">
-    <a md-raised-button>Timeline</a>
-    <a md-raised-button>Map</a>
-    <a md-raised-button>List</a>
+    <div [(ngModel)]="model" ngbRadioGroup name="radioBasic">
+        <label class="btn btn-primary">
+            <input type="radio" [value]="1"> Timeline
+        </label>
+        <label class="btn btn-primary">
+            <input type="radio" value="middle"> Map
+        </label>
+        <label class="btn btn-primary">
+            <input type="radio" [value]="false"> List
+        </label>
+    </div>
 </div>
