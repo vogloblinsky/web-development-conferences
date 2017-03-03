@@ -1,5 +1,15 @@
 <div class="top-buttons-group">
-    <a md-raised-button>Timeline</a>
-    <a md-raised-button>Map</a>
-    <a md-raised-button>List</a>
+    <div ngbRadioGroup>
+        <a routerLink="/timeline" class="btn btn-primary" routerLinkActive="active">
+            Timeline
+        </a>
+        <a routerLink="/map" class="btn btn-primary" routerLinkActive="active">
+            Map
+        </a>
+        <a routerLink="/list" class="btn btn-primary" routerLinkActive="active">
+            List
+        </a>
+    </div>
 </div>
+
+<router-outlet></router-outlet>

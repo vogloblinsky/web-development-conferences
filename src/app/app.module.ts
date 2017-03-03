@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { MaterialModule } from '@angular/material';
-import 'hammerjs';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
+
+import { AppRoutingModule } from './app-routing.module';
+
+import { TimelineModule } from './views/timeline/';
+import { MapModule } from './views/map/';
 
 @NgModule({
     declarations: [
@@ -16,7 +20,12 @@ import { AppComponent } from './app.component';
         BrowserModule,
         FormsModule,
         HttpModule,
-        MaterialModule
+        NgbModule.forRoot(),
+
+        TimelineModule,
+        MapModule,
+
+        AppRoutingModule
     ],
     providers: [],
     bootstrap: [AppComponent]
