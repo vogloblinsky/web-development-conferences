@@ -27,7 +27,7 @@ export class MapComponent implements AfterViewInit {
             attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
 
-        for (const i = 0; i < this.conferences.length; i++) {
+        for (let i = 0; i < this.conferences.length; i++) {
             const a = this.conferences[i],
                 title = a.name,
                 myIcon = L.icon({
