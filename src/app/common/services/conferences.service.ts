@@ -24,22 +24,22 @@ export class ConferencesService {
 
     getRegionsForTimeline() {
         return this.regions.map((region) => {
-            let _region = {
+            const _region = {
                 id: region.id,
                 content: region.name
-            }
+            };
             return _region;
         });
     }
     getConferencesForTimeline() {
         return this.conferences.map((conference) => {
-            let _conference = {
+            const _conference = {
                 start: conference.startDate,
                 end: conference.endDate,
                 content: conference.name,
                 group: conference.region,
                 type: 'box'
-            }
+            };
             return _conference;
         });
     }

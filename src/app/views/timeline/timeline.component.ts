@@ -18,7 +18,7 @@ export class TimelineComponent implements AfterViewInit {
     }
 
     ngAfterViewInit() {
-        let container = document.getElementById('visualization'),
+        const container = document.getElementById('visualization'),
 
             items = new vis.DataSet(this.conferences),
             groups = new vis.DataSet(this.conferencesService.getRegionsForTimeline()),
