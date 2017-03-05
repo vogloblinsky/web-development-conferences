@@ -8,7 +8,11 @@
         "region": 4,
         "city": "Rennes",
         "state": "Brittany",
-        "website": "http://www.breizhcamp.org"
+        "website": "http://www.breizhcamp.org",
+        "gps": {
+            "lat": 48.11198043823242,
+            "lng": -1.6742899417877197
+        }
     },
     {
         "id": 2,
@@ -17,9 +21,13 @@
         "endDate": "2017-04-7",
         "country": "France",
         "region": 4,
-        "city": "Rennes",
+        "city": "Paris",
         "state": "Ile-de-France",
-        "website": "https://devoxx.fr"
+        "website": "https://devoxx.fr",
+        "gps": {
+            "lat": 48.85340881347656,
+            "lng": 2.34879994392395
+        }
     },
     {
         "id": 3,
@@ -30,7 +38,11 @@
         "region": 6,
         "city": "Salt Lake City",
         "state": "Utah",
-        "website": "https://www.ng-conf.org"
+        "website": "https://www.ng-conf.org",
+        "gps": {
+            "lat": 40.760780334472656,
+            "lng": -111.89105224609375
+        }
     },
     {
         "id": 4,
@@ -41,7 +53,11 @@
         "region": 4,
         "city": "Barcelona",
         "state": "Catalogna",
-        "website": "https://angularcamp.org"
+        "website": "https://angularcamp.org",
+        "gps": {
+            "lat": 41.388790130615234,
+            "lng": 2.158989906311035
+        }
     },
     {
         "id": 5,
@@ -52,7 +68,11 @@
         "region": 4,
         "city": "Amsterdam",
         "state": "North Holland",
-        "website": "https://ng-nl.org"
+        "website": "https://ng-nl.org",
+        "gps": {
+            "lat": 52.37403106689453,
+            "lng": 4.889689922332764
+        }
     },
     {
         "id": 6,
@@ -63,6 +83,10 @@
         "region": 4,
         "city": "Copenhagen",
         "state": "Capital",
-        "website": "https://ngvikings.org"
+        "website": "https://ngvikings.org",
+        "gps": {
+            "lat": 55.675941467285156,
+            "lng": 12.565529823303223
+        }
     }
 ]

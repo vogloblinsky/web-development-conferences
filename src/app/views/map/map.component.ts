@@ -1,5 +1,7 @@
 import { Component, AfterViewInit, ViewEncapsulation } from '@angular/core';
 
+import { ConferencesService } from '../../common/services/conferences.service';
+
 var L = window['L'];
 
 @Component({
@@ -9,24 +11,25 @@ var L = window['L'];
     encapsulation: ViewEncapsulation.None
 })
 export class MapComponent implements AfterViewInit {
+
+    conferences: any[];
+
+    constructor(private conferencesService: ConferencesService) {
+        this.conferences = this.conferencesService.getConferences();
+    }
+
     ngAfterViewInit() {
 
         var markers = L.markerClusterGroup();
 
-        var addressPoints = [
-            [48.11, -1.68, 'Rennes'],
-            [48.02, -1.85, 'Bruz'],
-            [48.18, -1.69, 'Betton']
-        ];
-
-        var map = L.map('map').setView([47, 0], 6);
+        var map = L.map('map').setView([20, 0], 2);
         L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
 
-        for (var i = 0; i < addressPoints.length; i++) {
-            var a = addressPoints[i];
-            var title = a[2];
+        for (var i = 0; i < this.conferences.length; i++) {
+            var a = this.conferences[i];
+            var title = a.name;
             var myIcon = L.icon({
                 iconUrl: 'assets/marker-icon.png',
                 iconSize: [25, 41],
@@ -36,7 +39,7 @@ export class MapComponent implements AfterViewInit {
                 shadowSize: [41, 41],
                 shadowAnchor: [22, 22]
             });
-            var marker = L.marker(new L.LatLng(a[0], a[1]), {
+            var marker = L.marker(new L.LatLng(a.gps.lat, a.gps.lng), {
                 title: title,
                 icon: myIcon
             });
