@@ -1,6 +1,8 @@
 import { Component, AfterViewInit, ViewEncapsulation } from '@angular/core';
 import * as vis from 'vis';
 
+import { ConferencesService } from '../../common/services/conferences.service';
+
 @Component({
     selector: 'timeline',
     templateUrl: './timeline.component.html',
@@ -8,23 +10,27 @@ import * as vis from 'vis';
     encapsulation: ViewEncapsulation.None
 })
 export class TimelineComponent implements AfterViewInit {
+
+    conferences: any[];
+
+    constructor(private conferencesService: ConferencesService) {
+        this.conferences = this.conferencesService.getConferencesForTimeline();
+    }
+
     ngAfterViewInit() {
-        var container = document.getElementById('visualization');
+        let container = document.getElementById('visualization'),
 
-        // Create a DataSet (allows two way data-binding)
-        var items = new vis.DataSet([
-            { id: 1, content: 'item 1', start: '2013-04-20' },
-            { id: 2, content: 'item 2', start: '2013-04-14' },
-            { id: 3, content: 'item 3', start: '2013-04-18' },
-            { id: 4, content: 'item 4', start: '2013-04-16', end: '2013-04-19' },
-            { id: 5, content: 'item 5', start: '2013-04-25' },
-            { id: 6, content: 'item 6', start: '2013-04-27' }
-        ]);
+            items = new vis.DataSet(this.conferences),
+            groups = new vis.DataSet(this.conferencesService.getRegionsForTimeline()),
 
-        // Configuration for the Timeline
-        var options = {};
+            options: any = {
+                min: '2017-01-01',
+                max: '2017-12-31',
+                selectable: false,
+                groupOrder: 'content'
+            },
 
-        // Create a Timeline
-        var timeline = new vis.Timeline(container, items, options);
+            timeline = new vis.Timeline(container, items, options);
+        timeline.setGroups(groups);
     }
 }

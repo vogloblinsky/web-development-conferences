@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "Breizhcamp",
+        "startDate": "2017-04-19",
+        "endDate": "2017-04-21",
+        "country": "France",
+        "region": 4,
+        "city": "Rennes",
+        "state": "Brittany",
+        "website": "http://www.breizhcamp.org"
+    },
+    {
+        "id": 2,
+        "name": "Devoxx France",
+        "startDate": "2017-04-5",
+        "endDate": "2017-04-7",
+        "country": "France",
+        "region": 4,
+        "city": "Rennes",
+        "state": "Ile-de-France",
+        "website": "https://devoxx.fr"
+    },
+    {
+        "id": 3,
+        "name": "ng-conf",
+        "startDate": "2017-04-5",
+        "endDate": "2017-04-7",
+        "country": "United States",
+        "region": 6,
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "website": "https://www.ng-conf.org"
+    },
+    {
+        "id": 4,
+        "name": "Angular Camp",
+        "startDate": "2017-07-01",
+        "endDate": "2017-07-01",
+        "country": "Spain",
+        "region": 4,
+        "city": "Barcelona",
+        "state": "Catalogna",
+        "website": "https://angularcamp.org"
+    },
+    {
+        "id": 5,
+        "name": "NG-NL",
+        "startDate": "2017-03-15",
+        "endDate": "2017-03-16",
+        "country": "Netherlands",
+        "region": 4,
+        "city": "Amsterdam",
+        "state": "North Holland",
+        "website": "https://ng-nl.org"
+    },
+    {
+        "id": 6,
+        "name": "ng-viking",
+        "startDate": "2017-02-11",
+        "endDate": "2017-02-12",
+        "country": "Denmark",
+        "region": 4,
+        "city": "Copenhagen",
+        "state": "Capital",
+        "website": "https://ngvikings.org"
+    }
+]

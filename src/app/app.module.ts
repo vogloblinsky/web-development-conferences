@@ -12,6 +12,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { TimelineModule } from './views/timeline/';
 import { MapModule } from './views/map/';
 
+import { ConferencesService } from './common/services/conferences.service';
+
 @NgModule({
     declarations: [
         AppComponent
@@ -27,7 +29,9 @@ import { MapModule } from './views/map/';
 
         AppRoutingModule
     ],
-    providers: [],
+    providers: [
+        ConferencesService
+    ],
     bootstrap: [AppComponent]
 })
 export class AppModule { }
