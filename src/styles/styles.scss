@@ -11,11 +11,27 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.title {
-    font-weight: bold;
-    padding: 10px;
-    position: absolute;
-    font-size: 22px;
+header {
+    height: $headerHeight;
+    background: #3498db;
+    color: white;
+
+    .title {
+        padding: 0 15px;
+        position: absolute;
+        font-size: 18px;
+        line-height: $headerHeight;
+    }
+}
+
+.top-buttons-group {
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    z-index: 2;
 }
 
 @import 'spinner';

@@ -1,9 +1,11 @@
+@import '../../../styles/variables';
+
 timeline {
-    position: relative;
+    position: absolute;
     width: 100%;
     display: block;
-    margin-top: 10px;
-    height: calc(100% - 98px);
+    height: 100%;
+    bottom: 0;
 
     #visualization {
         position: absolute;

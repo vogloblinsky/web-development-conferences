@@ -1,9 +1,12 @@
+@import '../../../styles/variables';
+
 map {
-    position: relative;
+    position: absolute;
     width: 100%;
     display: block;
-    margin-top: 10px;
-    height: calc(100% - 98px);
+    height: 100%;
+    bottom: 0;
+    z-index: 1;
 
     #map {
         position: absolute;

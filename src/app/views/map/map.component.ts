@@ -20,7 +20,9 @@ export class MapComponent implements AfterViewInit {
 
     ngAfterViewInit() {
 
-        const markers = L.markerClusterGroup(),
+        const markers = L.markerClusterGroup({
+            showCoverageOnHover: false
+        }),
             map = L.map('map').setView([20, 0], 2);
 
         L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
