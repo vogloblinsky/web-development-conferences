@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
+import { DetailComponent } from './common/components/detail/detail.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -16,7 +17,8 @@ import { ConferencesService } from './common/services/conferences.service';
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        DetailComponent
     ],
     imports: [
         BrowserModule,

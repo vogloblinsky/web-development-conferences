@@ -1,4 +1,6 @@
 import { Component, AfterViewInit, ViewEncapsulation } from '@angular/core';
+import { Router } from '@angular/router';
+
 import * as vis from 'vis';
 
 import { ConferencesService } from '../../common/services/conferences.service';
@@ -13,8 +15,13 @@ export class TimelineComponent implements AfterViewInit {
 
     conferences: any[];
 
-    constructor(private conferencesService: ConferencesService) {
+    constructor(private conferencesService: ConferencesService,
+                private router: Router) {
         this.conferences = this.conferencesService.getConferencesForTimeline();
+    }
+
+    getConference(id) {
+        return this.conferences.filter(conference => conference.id === id)[0];
     }
 
     ngAfterViewInit() {
@@ -26,11 +33,17 @@ export class TimelineComponent implements AfterViewInit {
             options: any = {
                 min: '2017-01-01',
                 max: '2017-12-31',
-                selectable: false,
-                groupOrder: 'content'
+                selectable: true,
+                groupOrder: 'content',
+                editable: false
             },
 
             timeline = new vis.Timeline(container, items, options);
         timeline.setGroups(groups);
+
+        timeline.on('click', (properties) => {
+            let selectedConference = this.getConference(properties.item);
+            this.router.navigate(['/', {outlets: {'detail': [selectedConference.idApp]}}]);
+        });
     }
 }

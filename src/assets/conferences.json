@@ -88,5 +88,20 @@
             "lat": 55.675941467285156,
             "lng": 12.565529823303223
         }
+    },
+    {
+        "id": 7,
+        "name": "Devfest Lille",
+        "startDate": "2017-06-09",
+        "endDate": "2017-06-09",
+        "country": "France",
+        "region": 4,
+        "city": "Lille",
+        "state": "Hauts-de-France",
+        "website": "https://devfest.gdglille.org/",
+        "gps": {
+            "lat": 50.637222,
+            "lng": 3.063333
+        }
     }
 ]
