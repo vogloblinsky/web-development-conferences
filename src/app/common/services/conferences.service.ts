@@ -19,7 +19,7 @@ export class ConferencesService {
         return this.conferences;
     }
     getConference(id) {
-        return this.conferences.filter(conference => conference.id === id)[0];
+        return this.conferences.filter(conference => conference.id === parseInt(id))[0];
     }
 
     getRegionsForTimeline() {
@@ -38,6 +38,7 @@ export class ConferencesService {
                 end: conference.endDate,
                 content: conference.name,
                 group: conference.region,
+                idApp: conference.id,
                 type: 'box'
             };
             return _conference;

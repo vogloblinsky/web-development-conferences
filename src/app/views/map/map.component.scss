@@ -1,11 +1,10 @@
 @import '../../../styles/variables';
 
 map {
-    position: absolute;
-    width: 100%;
-    display: block;
+    position: relative;
     height: 100%;
-    bottom: 0;
+    order: 1;
+    flex: 2 1 auto;
     z-index: 1;
 
     #map {
