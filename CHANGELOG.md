@@ -1,3 +1,11 @@
+<a name="0.3.0"></a>
+## 0.3.0 (2017-03-09)
+
+### Features
+
+* detail side view + routing
+* timeline click to detail view
+
 <a name="0.2.1"></a>
 ## 0.2.1 (2017-03-05)
 
