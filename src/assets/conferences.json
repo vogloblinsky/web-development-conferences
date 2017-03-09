@@ -103,5 +103,20 @@
             "lat": 50.637222,
             "lng": 3.063333
         }
+    },
+    {
+        "id": 8,
+        "name": "Nordic.js",
+        "startDate": "2017-09-07",
+        "endDate": "2017-09-08",
+        "country": "Sweden",
+        "region": 4,
+        "city": "Stockholm",
+        "state": "Södermanland and Uppland",
+        "website": "http://nordicjs.com/",
+        "gps": {
+            "lat": 59.329444,
+            "lng": 18.068611
+        }
     }
 ]
