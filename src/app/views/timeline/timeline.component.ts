@@ -32,7 +32,7 @@ export class TimelineComponent implements AfterViewInit {
 
             options: any = {
                 min: '2017-01-01',
-                max: '2017-12-31',
+                max: '2018-12-31',
                 selectable: true,
                 groupOrder: 'content',
                 editable: false

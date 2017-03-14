@@ -103,5 +103,155 @@
             "lat": 50.637222,
             "lng": 3.063333
         }
+    },
+    {
+        "id": 8,
+        "name": "Nordic.js",
+        "startDate": "2017-09-07",
+        "endDate": "2017-09-08",
+        "country": "Sweden",
+        "region": 4,
+        "city": "Stockholm",
+        "state": "Södermanland and Uppland",
+        "website": "http://nordicjs.com/",
+        "gps": {
+            "lat": 59.329444,
+            "lng": 18.068611
+        }
+    },
+    {
+        "id": 9,
+        "name": "Devfest Nantes",
+        "startDate": "2017-10-19",
+        "endDate": "2017-10-20",
+        "country": "France",
+        "region": 4,
+        "city": "Nantes",
+        "state": "Pays de la Loire",
+        "website": "https://devfest.gdgnantes.com/",
+        "gps": {
+            "lat": 47.21806,
+            "lng": -1.55278
+        }
+    },
+    {
+        "id": 10,
+        "name": "dotJS",
+        "startDate": "2017-11-30",
+        "endDate": "2017-12-01",
+        "country": "France",
+        "region": 4,
+        "city": "Paris",
+        "state": "Ile-de-France",
+        "website": "https://www.dotjs.io/",
+        "gps": {
+            "lat": 48.85340881347656,
+            "lng": 2.34879994392395
+        }
+    },
+    {
+        "id": 11,
+        "name": "ngeurope",
+        "startDate": "2018-02-01",
+        "endDate": "2018-02-02",
+        "country": "France",
+        "region": 4,
+        "city": "Paris",
+        "state": "Ile-de-France",
+        "website": "https://ngeurope.org/",
+        "gps": {
+            "lat": 48.85340881347656,
+            "lng": 2.34879994392395
+        }
+    },
+    {
+        "id": 12,
+        "name": "web2day",
+        "startDate": "2017-06-07",
+        "endDate": "2017-06-09",
+        "country": "France",
+        "region": 4,
+        "city": "Nantes",
+        "state": "Pays de la Loire",
+        "website": "https://web2day.co/",
+        "gps": {
+            "lat": 47.21806,
+            "lng": -1.55278
+        }
+    },
+    {
+        "id": 13,
+        "name": "Riviera DEV",
+        "startDate": "2017-05-11",
+        "endDate": "2017-05-12",
+        "country": "France",
+        "region": 4,
+        "city": "Sophia Antipolis",
+        "state": "Provence-Alpes-Côte d'Azur",
+        "website": "http://rivieradev.fr/",
+        "gps": {
+            "lat": 43.6155,
+            "lng": 7.055
+        }
+    },
+    {
+        "id": 14,
+        "name": "AngularConnect",
+        "startDate": "2017-11-07",
+        "endDate": "2017-11-08",
+        "country": "England",
+        "region": 4,
+        "city": "London",
+        "state": "Greater London",
+        "website": "http://angularconnect.com/",
+        "gps": {
+            "lat": 51.507222,
+            "lng": -0.1275
+        }
+    },
+    {
+        "id": 15,
+        "name": "MiXiT",
+        "startDate": "2017-04-20",
+        "endDate": "2017-04-21",
+        "country": "France",
+        "region": 4,
+        "city": "Lyon",
+        "state": "Rhône",
+        "website": "https://mixitconf.org/",
+        "gps": {
+            "lat": 45.759723,
+            "lng": 4.842223
+        }
+    },
+    {
+        "id": 16,
+        "name": "NG-BE",
+        "startDate": "2017-11-08",
+        "endDate": "2017-11-09",
+        "country": "Belgium",
+        "region": 4,
+        "city": "Ghent",
+        "state": "Flemish Region",
+        "website": "https://ng-be.org/",
+        "gps": {
+            "lat": 51.05,
+            "lng": 3.733333
+        }
+    },
+    {
+        "id": 16,
+        "name": "Angular Beers",
+        "startDate": "2017-04-05",
+        "endDate": "2017-04-06",
+        "country": "Spain",
+        "region": 4,
+        "city": "Barcelona",
+        "state": "Catalogna",
+        "website": "https://angularbeers.org/",
+        "gps": {
+            "lat": 41.388790130615234,
+            "lng": 2.158989906311035
+        }
     }
 ]

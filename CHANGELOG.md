@@ -1,3 +1,10 @@
+<a name="0.4.0"></a>
+## 0.4.0 (2017-03-14)
+
+### Features
+
+* map click to detail view
+
 <a name="0.3.0"></a>
 ## 0.3.0 (2017-03-09)
 
