@@ -24,8 +24,6 @@ export class DetailComponent implements OnInit {
     }
 
     close() {
-        console.log(this.route.snapshot);
-        console.log(this.router.url);
-        this.router.navigate(['/']);
+        this.router.navigate([{outlets: {'detail': null}}]);
     }
 }
