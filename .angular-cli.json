@@ -18,7 +18,8 @@
         "prefix": "app",
         "styles": [
             "styles/vendor.scss",
-            "styles/styles.scss"
+            "styles/styles.scss",
+            "../node_modules/font-awesome/css/font-awesome.css"
         ],
         "scripts": [
             "../node_modules/leaflet/dist/leaflet-src.js",
