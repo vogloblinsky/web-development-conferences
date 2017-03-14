@@ -1,4 +1,5 @@
 import { Component, AfterViewInit, ViewEncapsulation } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { ConferencesService } from '../../common/services/conferences.service';
 
@@ -14,7 +15,8 @@ export class MapComponent implements AfterViewInit {
 
     conferences: any[];
 
-    constructor(private conferencesService: ConferencesService) {
+    constructor(private conferencesService: ConferencesService,
+                private router: Router) {
         this.conferences = this.conferencesService.getConferences();
     }
 
@@ -32,7 +34,7 @@ export class MapComponent implements AfterViewInit {
         for (let i = 0; i < this.conferences.length; i++) {
             const a = this.conferences[i],
                 title = a.name,
-                myIcon = L.icon({
+                confIcon = L.icon({
                     iconUrl: 'assets/marker-icon.png',
                     iconSize: [25, 41],
                     iconAnchor: [22, 22],
@@ -43,9 +45,14 @@ export class MapComponent implements AfterViewInit {
                 }),
                 marker = L.marker(new L.LatLng(a.gps.lat, a.gps.lng), {
                     title: title,
-                    icon: myIcon
+                    icon: confIcon,
+                    data: a
                 });
-            marker.bindPopup(title);
+            marker.on('click', (e) => {
+                let clickedConference = e.target.options.data,
+                    selectedConference = this.conferencesService.getConference(clickedConference.id);
+                this.router.navigate(['/', {outlets: {'detail': [selectedConference.id]}}]);
+            });
             markers.addLayer(marker);
         }
         map.addLayer(markers);
