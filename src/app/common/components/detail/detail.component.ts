@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 
 import { ConferencesService } from '../../services/conferences.service';
 
@@ -13,11 +13,19 @@ export class DetailComponent implements OnInit {
 
     conference;
 
-    constructor(private route: ActivatedRoute, private conferencesService: ConferencesService) { }
+    constructor(private route: ActivatedRoute,
+                private conferencesService: ConferencesService,
+                private router: Router) { }
 
     ngOnInit() {
         this.route.params.subscribe((params: { id: number }) => {
             this.conference = this.conferencesService.getConference(params.id);
         });
+    }
+
+    close() {
+        console.log(this.route.snapshot);
+        console.log(this.router.url);
+        this.router.navigate(['/']);
     }
 }

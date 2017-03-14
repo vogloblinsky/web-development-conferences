@@ -3,4 +3,18 @@ detail {
     height: 100%;
     flex-basis: auto;
     order: 2;
+    padding: 10px;
+
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+
+    .btn-close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
 }
