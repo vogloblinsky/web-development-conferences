@@ -4,7 +4,9 @@ map {
     position: relative;
     height: 100%;
     order: 1;
+    -webkit-order: 1;
     flex: 2 1 auto;
+    -webkit-flex: 2 1 auto;
     z-index: 1;
 
     #map {

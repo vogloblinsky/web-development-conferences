@@ -25,11 +25,12 @@ header {
 }
 
 .top-buttons-group {
-    width: 220px;
+    width: 235px;
     margin: 0 auto;
     margin-top: 10px;
     text-align: center;
     display: flex;
+    display: -webkit-flex;
     position: absolute;
     margin-left: -110px;
     left: 50%;

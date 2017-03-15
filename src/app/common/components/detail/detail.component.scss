@@ -2,7 +2,9 @@ detail {
     width: 400px;
     height: 100%;
     flex-basis: auto;
+    -webkit-flex-basis: auto;
     order: 2;
+    -webkit-order: 2;
     padding: 10px;
 
     h1 {
