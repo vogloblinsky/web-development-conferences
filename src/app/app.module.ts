@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { TimelineModule } from './views/timeline/';
 import { MapModule } from './views/map/';
+import { ListModule } from './views/list/';
 
 import { ConferencesService } from './common/services/conferences.service';
 
@@ -28,6 +29,7 @@ import { ConferencesService } from './common/services/conferences.service';
 
         TimelineModule,
         MapModule,
+        ListModule,
 
         AppRoutingModule
     ],
