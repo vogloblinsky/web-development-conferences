@@ -23,7 +23,18 @@ export class ConferencesService {
     }
 
     getRegionsForTimeline() {
-        return this.regions.map((region) => {
+        var filledRegions = this.regions.filter((region) => {
+            const conferences = this.conferences.filter(function(c) { return c.region === region.id; });
+            if (conferences.length > 0) {
+                const _region = {
+                    id: region.id,
+                    content: region.name
+                };
+                return _region;
+            }
+        });
+
+        return filledRegions.map((region) => {
             const _region = {
                 id: region.id,
                 content: region.name
