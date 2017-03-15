@@ -1,3 +1,11 @@
+<a name="0.4.2"></a>
+## 0.4.2 (2017-03-15)
+
+### Features
+
+* list / wip
+* detail : logo + more infos / wip
+
 <a name="0.4.1"></a>
 ## 0.4.1 (2017-03-14)
 
