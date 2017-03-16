@@ -10,6 +10,9 @@
         "state": "Brittany",
         "website": "http://www.breizhcamp.org",
         "logo": "http://www.breizhcamp.org/img/logo.png",
+        "youtube": "BreizhCamp",
+        "youtubeMode": "user",
+        "twitter": "breizhcamp",
         "gps": {
             "lat": 48.11198043823242,
             "lng": -1.6742899417877197
@@ -26,6 +29,8 @@
         "state": "Ile-de-France",
         "website": "https://devoxx.fr",
         "logo": "https://devoxx.fr/assets/images/logo_devoxx_france_150_33.png",
+        "twitter": "DevoxxFR",
+        "youtube": "UCsVPQfo5RZErDL41LoWvk0A",
         "gps": {
             "lat": 48.85340881347656,
             "lng": 2.34879994392395
@@ -41,6 +46,9 @@
         "city": "Salt Lake City",
         "state": "Utah",
         "website": "https://www.ng-conf.org",
+        "twitter": "ngconf",
+        "youtube": "ngconfvideos",
+        "youtubeMode": "user",
         "gps": {
             "lat": 40.760780334472656,
             "lng": -111.89105224609375
@@ -56,6 +64,8 @@
         "city": "Barcelona",
         "state": "Catalogna",
         "website": "https://angularcamp.org",
+        "twitter": "AngularCamp",
+        "youtube": "UCVLlWT1NZZEJs4A67XgObnQ",
         "gps": {
             "lat": 41.388790130615234,
             "lng": 2.158989906311035
@@ -72,6 +82,8 @@
         "state": "North Holland",
         "website": "https://ng-nl.org",
         "logo": "https://ng-nl.org/images/logos/ng-nl-logo.png",
+        "twitter": "ngnlconf",
+        "youtube": "UCBLyK9z883f-nr_4KW6gngw",
         "gps": {
             "lat": 52.37403106689453,
             "lng": 4.889689922332764
@@ -88,6 +100,7 @@
         "state": "Capital",
         "website": "https://ngvikings.org",
         "logo": "https://ngvikings.org/images/logo-white.png",
+        "twitter": "ngVikingsConf",
         "gps": {
             "lat": 55.675941467285156,
             "lng": 12.565529823303223
@@ -103,6 +116,9 @@
         "city": "Lille",
         "state": "Hauts-de-France",
         "website": "https://devfest.gdglille.org/",
+        "twitter": "GDGLille",
+        "youtube": "francegdg",
+        "youtubeMode": "user",
         "gps": {
             "lat": 50.637222,
             "lng": 3.063333
@@ -118,6 +134,9 @@
         "city": "Stockholm",
         "state": "Södermanland and Uppland",
         "website": "http://nordicjs.com/",
+        "twitter": "nordicjs",
+        "youtube": "nordicjs",
+        "youtubeMode": "user",
         "gps": {
             "lat": 59.329444,
             "lng": 18.068611
@@ -133,6 +152,9 @@
         "city": "Nantes",
         "state": "Pays de la Loire",
         "website": "https://devfest.gdgnantes.com/",
+        "twitter": "devfestnantes",
+        "youtube": "francegdg",
+        "youtubeMode": "user",
         "gps": {
             "lat": 47.21806,
             "lng": -1.55278
@@ -148,6 +170,9 @@
         "city": "Paris",
         "state": "Ile-de-France",
         "website": "https://www.dotjs.io/",
+        "twitter": "dotJS",
+        "youtube": "dotconferences",
+        "youtubeMode": "user",
         "gps": {
             "lat": 48.85340881347656,
             "lng": 2.34879994392395
@@ -163,6 +188,8 @@
         "city": "Paris",
         "state": "Ile-de-France",
         "website": "https://ngeurope.org/",
+        "twitter": "ngEurope",
+        "youtube": "UCEGUP3TJJfMsEM_1y8iviSQ",
         "gps": {
             "lat": 48.85340881347656,
             "lng": 2.34879994392395
@@ -178,6 +205,8 @@
         "city": "Nantes",
         "state": "Pays de la Loire",
         "website": "https://web2day.co/",
+        "twitter": "web2day",
+        "youtube": "UCCzfEV7NDD5OvkE3Ua7pcxQ",
         "gps": {
             "lat": 47.21806,
             "lng": -1.55278
@@ -193,6 +222,9 @@
         "city": "Sophia Antipolis",
         "state": "Provence-Alpes-Côte d'Azur",
         "website": "http://rivieradev.fr/",
+        "twitter": "RivieraDEV",
+        "youtube": "RivieraJUG",
+        "youtubeMode": "user",
         "gps": {
             "lat": 43.6155,
             "lng": 7.055
@@ -208,6 +240,8 @@
         "city": "London",
         "state": "Greater London",
         "website": "http://angularconnect.com/",
+        "twitter": "AngularConnect",
+        "youtube": "UCzrskTiT_ObAk3xBkVxMz5g",
         "gps": {
             "lat": 51.507222,
             "lng": -0.1275
@@ -223,6 +257,7 @@
         "city": "Lyon",
         "state": "Rhône",
         "website": "https://mixitconf.org/",
+        "twitter": "mixitconf",
         "gps": {
             "lat": 45.759723,
             "lng": 4.842223
@@ -238,6 +273,8 @@
         "city": "Ghent",
         "state": "Flemish Region",
         "website": "https://ng-be.org/",
+        "twitter": "ngbeconf",
+        "youtube": "UCnMfZM2S3QgbFvOyet5PMmQ",
         "gps": {
             "lat": 51.05,
             "lng": 3.733333
@@ -254,6 +291,8 @@
         "state": "Catalogna",
         "website": "https://angularbeers.org/",
         "logo": "https://angularbeers.org/img/other/angular-beers-logo.png",
+        "youtube": "UCbnKictY3ELQwJ2scWwXhJw",
+        "twitter": "AngularBeers",
         "gps": {
             "lat": 41.388790130615234,
             "lng": 2.158989906311035
@@ -270,6 +309,8 @@
         "state": "Rhône",
         "website": "http://www.blendwebmix.com/",
         "logo": "http://www.blendwebmix.com/static/apps/blend_templates/images/logo.png",
+        "twitter": "blendwebmix",
+        "youtube": "UCVA4ZOoyUyLB_LS6flBjhRg",
         "gps": {
             "lat": 45.759723,
             "lng": 4.842223
@@ -286,6 +327,8 @@
         "state": "Ile-de-France",
         "website": "https://www.paris-web.fr/",
         "logo": "https://www.paris-web.fr/img/logo-parisweb.png",
+        "twitter": "ParisWeb",
+        "vimeo": "parisweb",
         "gps": {
             "lat": 48.85340881347656,
             "lng": 2.34879994392395
@@ -302,9 +345,30 @@
         "state": "Ile-de-France",
         "website": "https://www.dotcss.io/",
         "logo": "https://www.dotcss.io/static/images/logo-dotcss.png",
+        "twitter": "dotCSS",
+        "youtube": "dotconferences",
+        "youtubeMode": "user",
         "gps": {
             "lat": 48.85340881347656,
             "lng": 2.34879994392395
+        }
+    },
+    {
+        "id": 21,
+        "name": "bdx.io",
+        "startDate": "2017-07-01",
+        "endDate": "2017-07-01",
+        "country": "France",
+        "region": 4,
+        "city": "Bordeaux",
+        "state": "Nouvelle-Aquitaine",
+        "website": "http://www.bdx.io/",
+        "logo": "http://www.bdx.io/5aa13ad42dfe154f44a1e379f79c23aa.png",
+        "twitter": "bdxio",
+        "youtube": "UCA7pEYY0BlgCdpbnjhCDezQ",
+        "gps": {
+            "lat": 44.837912,
+            "lng": -0.579541
         }
     }
 ]
