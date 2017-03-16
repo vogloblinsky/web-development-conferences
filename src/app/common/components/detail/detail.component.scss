@@ -5,7 +5,9 @@ detail {
     -webkit-flex-basis: auto;
     order: 2;
     -webkit-order: 2;
-    padding: 10px;
+    padding: 0 15px;
+
+    background: white;
 
     h1 {
         font-size: 22px;
@@ -16,8 +18,8 @@ detail {
 
     .btn-close {
         position: absolute;
-        right: 10px;
-        top: 10px;
+        right: 15px;
+        top: 15px;
         cursor: pointer;
     }
 
