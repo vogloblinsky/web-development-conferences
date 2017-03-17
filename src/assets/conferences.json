@@ -370,5 +370,39 @@
             "lat": 44.837912,
             "lng": -0.579541
         }
+    },
+    {
+        "id": 22,
+        "name": "ng-japan",
+        "startDate": "2017-06-17",
+        "endDate": "2017-06-17",
+        "country": "Japan",
+        "region": 2,
+        "city": "Tokyo",
+        "state": "Kantō",
+        "website": "http://ngjapan.org/",
+        "logo": "http://ngjapan.org/images/logo.png",
+        "twitter": "ng_japan",
+        "gps": {
+            "lat": 35.670724,
+            "lng": 139.771907
+        }
+    },
+    {
+        "id": 23,
+        "name": "CycleConf",
+        "startDate": "2017-04-21",
+        "endDate": "2017-04-23",
+        "country": "Sweden",
+        "region": 4,
+        "city": "Stockholm",
+        "state": "Södermanland and Uppland",
+        "website": "http://cycleconf.com/",
+        "logo": "http://cycleconf.com/img/cyclejs_logo.svg",
+        "twitter": "cycleconf",
+        "gps": {
+            "lat": 59.329444,
+            "lng": 18.068611
+        }
     }
 ]
