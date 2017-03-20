@@ -404,5 +404,22 @@
             "lat": 59.329444,
             "lng": 18.068611
         }
+    },
+    {
+        "id": 24,
+        "name": "ng-poland",
+        "startDate": "2017-11-20",
+        "endDate": "2017-11-21",
+        "country": "Poland",
+        "region": 4,
+        "city": "Warsaw",
+        "state": "Masovian",
+        "website": "http://www.ng-poland.pl/",
+        "twitter": "ngPolandConf",
+        "youtube": "UC55UiwMH_7PVcKrkriXSHuw",
+        "gps": {
+            "lat": 52.233333,
+            "lng": 21.016667
+        }
     }
 ]
