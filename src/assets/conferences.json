@@ -421,5 +421,56 @@
             "lat": 52.233333,
             "lng": 21.016667
         }
+    },
+    {
+        "id": 25,
+        "name": "js-poland",
+        "startDate": "2017-06-19",
+        "endDate": "2017-06-19",
+        "country": "Poland",
+        "region": 4,
+        "city": "Warsaw",
+        "state": "Masovian",
+        "website": "http://www.js-poland.pl/",
+        "logo": "http://www.js-poland.pl/app/assets/img/logo_a.png",
+        "twitter": "jsPolandConf",
+        "gps": {
+            "lat": 52.233333,
+            "lng": 21.016667
+        }
+    },
+    {
+        "id": 26,
+        "name": "ng-cruise",
+        "startDate": "2017-05-29",
+        "endDate": "2017-06-02",
+        "country": "United States",
+        "region": 6,
+        "city": "Miami",
+        "state": "Florida",
+        "website": "https://ngcruise.com",
+        "logo": "https://ngcruise.com/assets/img/NG-Cruise-Logo-Normal.png",
+        "twitter": "ngcruise",
+        "gps": {
+            "lat": 25.783333,
+            "lng": -80.216667
+        }
+    },
+    {
+        "id": 27,
+        "name": "React Conf",
+        "startDate": "2017-03-13",
+        "endDate": "2017-03-14",
+        "country": "United States",
+        "region": 6,
+        "city": "Santa Clara",
+        "state": "California",
+        "website": "http://conf.reactjs.org/",
+        "logo": "http://conf.reactjs.org/static/media/reactconf-logo-2c-black@2x.68a3c052.png",
+        "twitter": "ngcruise",
+        "gps": {
+            "lat": 37.354444,
+            "lng": -121.969167
+        }
     }
 ]
