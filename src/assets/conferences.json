@@ -472,5 +472,22 @@
             "lat": 37.354444,
             "lng": -121.969167
         }
+    },
+    {
+        "id": 28,
+        "name": "Devoxx US",
+        "startDate": "2017-03-21",
+        "endDate": "2017-03-23",
+        "country": "United States",
+        "region": 6,
+        "city": "San Jose",
+        "state": "California",
+        "website": "https://devoxx.us/",
+        "logo": "https://s3-us-west-1.amazonaws.com/devoxxus/wp-content/uploads/2015/08/03171309/DEVOXX_WHITE_TRANSPARENT.png",
+        "twitter": "DevoxxUS",
+        "gps": {
+            "lat": 37.304167,
+            "lng": -121.872778
+        }
     }
 ]
