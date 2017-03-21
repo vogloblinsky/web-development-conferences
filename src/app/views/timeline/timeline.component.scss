@@ -4,11 +4,18 @@ timeline {
     position: relative;
     height: 100%;
     order: 1;
+    -webkit-order: 1;
     flex: 2 1 auto;
+    -webkit-flex: 2 1 auto;
+    overflow-y: hidden;
 
     #visualization {
         position: absolute;
         bottom: 0;
         width: 100%;
+    }
+
+    .vis-item .vis-item-content {
+        padding: 5px 10px;
     }
 }
