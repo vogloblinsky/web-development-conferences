@@ -489,5 +489,21 @@
             "lat": 37.304167,
             "lng": -121.872778
         }
+    },
+    {
+        "id": 29,
+        "name": "Devfest Toulouse",
+        "startDate": "2017-09-28",
+        "endDate": "2017-09-28",
+        "country": "France",
+        "region": 4,
+        "city": "Toulouse",
+        "state": "Occitanie",
+        "website": "https://devfesttoulouse.fr/",
+        "twitter": "DevFestToulouse",
+        "gps": {
+            "lat": 43.604482,
+            "lng": 1.443962
+        }
     }
 ]
