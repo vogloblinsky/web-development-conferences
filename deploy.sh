@@ -29,7 +29,7 @@ git config user.email "${COMMIT_AUTHOR_EMAIL}"
 git add . && \
 git commit -m "Deploy to GitHub Pages: ${SHA}" && \
 
-# Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
+# Get the deploy key by using Travis's stored variables to decrypt deploy-key.enc
 ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
 ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
 ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}

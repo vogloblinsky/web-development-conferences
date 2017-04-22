@@ -12,4 +12,4 @@ script:
 env:
   global:
     - COMMIT_AUTHOR_EMAIL: "vincent.ogloblinsky@gmail.com"
-    - ENCRYPTION_LABEL: d69ab7e101d2
+    - ENCRYPTION_LABEL: 7f49d75a7681
