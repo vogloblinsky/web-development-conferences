@@ -1,12 +1,12 @@
 {
-  "name": "web-development-conferences-visual-overview",
+  "name": "web-development-conferences",
   "version": "0.4.3",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build:prod": "ng build --target=production --environment=prod --base-href=https://vogloblinsky.github.io/web-development-conferences-visual-overview/",
+    "build:prod": "ng build --target=production --environment=prod --base-href=https://vogloblinsky.github.io/web-development-conferences/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
