@@ -14,6 +14,8 @@ import { TimelineModule } from './views/timeline/';
 import { MapModule } from './views/map/';
 import { ListModule } from './views/list/';
 
+import { SharedModule } from './common/shared.module';
+
 import { ConferencesService } from './common/services/conferences.service';
 
 @NgModule({
@@ -30,6 +32,8 @@ import { ConferencesService } from './common/services/conferences.service';
         TimelineModule,
         MapModule,
         ListModule,
+
+        SharedModule,
 
         AppRoutingModule
     ],

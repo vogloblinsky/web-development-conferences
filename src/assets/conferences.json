@@ -505,5 +505,72 @@
             "lat": 43.604482,
             "lng": 1.443962
         }
+    },
+    {
+        "id": 30,
+        "name": "Angular MIX",
+        "startDate": "2017-10-10",
+        "endDate": "2017-10-12",
+        "country": "United States",
+        "region": 6,
+        "city": "Orlando",
+        "state": "Florida",
+        "website": "http://www.angularmix.com/",
+        "twitter": "angularmix",
+        "gps": {
+            "lat": 28.533611,
+            "lng": -81.386667
+        }
+    },
+    {
+        "id": 31,
+        "name": "JSUnconf",
+        "startDate": "2017-03-25",
+        "endDate": "2017-03-26",
+        "country": "Germany",
+        "region": 4,
+        "city": "Hamburg",
+        "state": "",
+        "website": "http://2017.jsunconf.eu/",
+        "twitter": "jsunconf",
+        "logo": "http://2017.jsunconf.eu/images/jsunconflogo.svg",
+        "gps": {
+            "lat": 53.565278,
+            "lng": 10.001389
+        }
+    },
+    {
+        "id": 32,
+        "name": "React London",
+        "startDate": "2017-03-25",
+        "endDate": "2017-03-26",
+        "country": "England",
+        "region": 4,
+        "city": "London",
+        "state": "Greater London",
+        "website": "https://react.london/",
+        "twitter": "ReactLondon_",
+        "youtube": "UCV4LIEkC0S9KUAPDm2g4mNQ",
+        "gps": {
+            "lat": 51.507222,
+            "lng": -0.1275
+        }
+    },
+    {
+        "id": 33,
+        "name": "AngularUP",
+        "startDate": "2017-06-25",
+        "endDate": "2017-06-25",
+        "country": "Israël",
+        "region": 5,
+        "city": "Tel Aviv",
+        "state": "Tel Aviv",
+        "website": "http://angular-up.com/",
+        "twitter": "AngularUP",
+        "youtube": "UCBmp3Hpuq1RAsgiyJ6vr-FA",
+        "gps": {
+            "lat": 32.066667,
+            "lng": 34.783333
+        }
     }
 ]

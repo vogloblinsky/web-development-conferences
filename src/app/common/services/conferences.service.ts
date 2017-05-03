@@ -55,4 +55,7 @@ export class ConferencesService {
             return _conference;
         });
     }
+    getConferencesForList() {
+        return this.regions;
+    }
 }
