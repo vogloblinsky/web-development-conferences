@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MomentModule } from 'angular2-moment';
 
 import { AppComponent } from './app.component';
 import { DetailComponent } from './common/components/detail/detail.component';
@@ -27,6 +28,9 @@ import { ConferencesService } from './common/services/conferences.service';
         BrowserModule,
         FormsModule,
         HttpModule,
+
+        MomentModule,
+
         NgbModule.forRoot(),
 
         TimelineModule,

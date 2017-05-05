@@ -6,7 +6,8 @@
         <br/>
         <h1><b>{{conference.name}}</b></h1>
         <br/>
-        <h1>{{conference.startDate}} - {{conference.endDate}}</h1>
+        <h1 *ngIf="conference.startDate !== conference.endDate">{{conference.startDate | amDateFormat:'D'}} - {{conference.endDate | amDateFormat:'D MMMM YYYY'}}</h1>
+        <h1 *ngIf="conference.startDate === conference.endDate">{{conference.startDate | amDateFormat:'D MMMM YYYY'}}</h1>
         <br/>
         <h2>{{conference.country}} - {{conference.state}}</h2>
         <br/>

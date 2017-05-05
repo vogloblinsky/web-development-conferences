@@ -1,6 +1,15 @@
-<h1>List by world regions</h1>
-<ul>
+<ul class="regions-list">
     <li *ngFor="let region of regions">
-        {{region.name}}
+        <div>
+            <h2 class="name">{{region.name}}</h2>
+            <ul>
+                <li *ngFor="let conference of region.conferences">
+                    <div>
+                        <a class="conference-name" href="{{conference.website}}" target="_blank">{{conference.name}}</a> - <span *ngIf="conference.startDate !== conference.endDate">{{conference.startDate  | amDateFormat:'D'}} - {{conference.endDate  | amDateFormat:'D MMMM YYYY'}}</span>
+                            <span *ngIf="conference.startDate === conference.endDate">{{conference.startDate | amDateFormat:'D MMMM YYYY'}}</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </li>
 </ul>
