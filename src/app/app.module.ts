@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MomentModule } from 'angular2-moment';
 
 import { AppComponent } from './app.component';
 import { DetailComponent } from './common/components/detail/detail.component';
@@ -13,6 +14,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { TimelineModule } from './views/timeline/';
 import { MapModule } from './views/map/';
 import { ListModule } from './views/list/';
+
+import { SharedModule } from './common/shared.module';
 
 import { ConferencesService } from './common/services/conferences.service';
 
@@ -25,11 +28,16 @@ import { ConferencesService } from './common/services/conferences.service';
         BrowserModule,
         FormsModule,
         HttpModule,
+
+        MomentModule,
+
         NgbModule.forRoot(),
 
         TimelineModule,
         MapModule,
         ListModule,
+
+        SharedModule,
 
         AppRoutingModule
     ],

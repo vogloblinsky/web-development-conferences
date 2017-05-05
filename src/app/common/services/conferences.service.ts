@@ -18,6 +18,9 @@ export class ConferencesService {
     getConferences() {
         return this.conferences;
     }
+    getConferencesForRegion(regionId) {
+        return this.conferences.filter(function(c) { return c.region === regionId; });
+    }
     getConference(id) {
         return this.conferences.filter(conference => conference.id === parseInt(id))[0];
     }
@@ -53,6 +56,19 @@ export class ConferencesService {
                 type: 'box'
             };
             return _conference;
+        });
+    }
+    getConferencesForList() {
+        return this.regions.map((region) => {
+            let _region = Object.assign({}, region);
+            _region.conferences = this.getConferencesForRegion(region.id).sort(function(a, b){
+                return a.name.localeCompare(b.name);
+            });
+            if (_region.conferences.length > 0) {
+                return _region;
+            }
+        }).filter(function(x) {
+            return typeof x !== 'undefined';
         });
     }
 }

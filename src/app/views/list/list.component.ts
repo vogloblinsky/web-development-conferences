@@ -3,8 +3,6 @@ import { Router, ActivatedRoute, UrlTree, UrlSegmentGroup, UrlSegment } from '@a
 
 import { ConferencesService } from '../../common/services/conferences.service';
 
-const L = window['L'];
-
 @Component({
     selector: 'list',
     templateUrl: './list.component.html',
@@ -13,16 +11,15 @@ const L = window['L'];
 })
 export class ListComponent implements AfterViewInit {
 
-    conferences: any[];
-    conference;
-    map;
+    regions: any[];
 
     constructor(private conferencesService: ConferencesService,
-        private router: Router,
-        private activatedRoute: ActivatedRoute) {
-        this.conferences = this.conferencesService.getConferences();
+                private router: Router,
+                private activatedRoute: ActivatedRoute) {
+        this.regions = this.conferencesService.getConferencesForList();
     }
 
-    ngAfterViewInit() {        
+    ngAfterViewInit() {
+
     }
 }

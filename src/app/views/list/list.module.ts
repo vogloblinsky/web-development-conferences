@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
+
+import { MomentModule } from 'angular2-moment';
 
 import { ListComponent } from './list.component';
 import { ListRoutingModule } from './list-routing.module';
@@ -10,7 +13,9 @@ import { ListRoutingModule } from './list-routing.module';
     ],
     imports: [
         RouterModule,
-        ListRoutingModule
+        ListRoutingModule,
+        BrowserModule,
+        MomentModule
     ],
     exports: [
         ListComponent
