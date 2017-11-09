@@ -39,8 +39,8 @@
     {
         "id": 3,
         "name": "ng-conf",
-        "startDate": "2017-04-5",
-        "endDate": "2017-04-7",
+        "startDate": "2018-04-18",
+        "endDate": "2018-04-20",
         "country": "United States",
         "region": 6,
         "city": "Salt Lake City",
@@ -92,8 +92,8 @@
     {
         "id": 6,
         "name": "ng-viking",
-        "startDate": "2017-02-11",
-        "endDate": "2017-02-12",
+        "startDate": "2018-03-01",
+        "endDate": "2018-03-02",
         "country": "Denmark",
         "region": 4,
         "city": "Copenhagen",
@@ -145,8 +145,8 @@
     {
         "id": 9,
         "name": "Devfest Nantes",
-        "startDate": "2017-10-19",
-        "endDate": "2017-10-20",
+        "startDate": "2018-10-18",
+        "endDate": "2018-10-19",
         "country": "France",
         "region": 4,
         "city": "Nantes",
@@ -198,8 +198,8 @@
     {
         "id": 12,
         "name": "web2day",
-        "startDate": "2017-06-07",
-        "endDate": "2017-06-09",
+        "startDate": "2018-06-13",
+        "endDate": "2018-06-15",
         "country": "France",
         "region": 4,
         "city": "Nantes",
@@ -215,8 +215,8 @@
     {
         "id": 13,
         "name": "Riviera DEV",
-        "startDate": "2017-05-11",
-        "endDate": "2017-05-12",
+        "startDate": "2018-05-02",
+        "endDate": "2018-05-04",
         "country": "France",
         "region": 4,
         "city": "Sophia Antipolis",
@@ -233,8 +233,8 @@
     {
         "id": 14,
         "name": "AngularConnect",
-        "startDate": "2017-11-07",
-        "endDate": "2017-11-08",
+        "startDate": "2018-11-06",
+        "endDate": "2018-11-07",
         "country": "England",
         "region": 4,
         "city": "London",
@@ -571,6 +571,56 @@
         "gps": {
             "lat": 32.066667,
             "lng": 34.783333
+        }
+    },
+    {
+        "id": 34,
+        "name": "Snowcamp",
+        "startDate": "2018-01-24",
+        "endDate": "2018-01-27",
+        "country": "France",
+        "region": 4,
+        "city": "Grenoble",
+        "state": "Auvergne-Rhône-Alpes",
+        "website": "http://snowcamp.io/",
+        "twitter": "SnowCampIO",
+        "gps": {
+            "lat": 45.1317,
+            "lng": 6.1647
+        }
+    },
+    {
+        "id": 35,
+        "name": "ngAtlanta",
+        "startDate": "2018-01-30",
+        "endDate": "2018-02-02",
+        "country": "United States",
+        "region": 6,
+        "city": "Atlanta",
+        "state": "Georgia",
+        "website": "http://ng-atl.org/",
+        "twitter": "ngAtlConf",
+        "gps": {
+            "lat": 33.6912,
+            "lng": -83.9534
+        }
+    },
+    {
+        "id": 36,
+        "name": "JSConf EU",
+        "startDate": "2018-03-02",
+        "endDate": "2018-03-03",
+        "country": "Germany",
+        "region": 4,
+        "city": "Berlin",
+        "state": "",
+        "website": "https://2018.jsconf.eu/",
+        "twitter": "jsconfeu",
+        "youtube": "jsconfeu",
+        "youtubeMode": "user",
+        "gps": {
+            "lat": 52.325,
+            "lng": 15.134
         }
     }
 ]
