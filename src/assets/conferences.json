@@ -2,8 +2,8 @@
     {
         "id": 1,
         "name": "Breizhcamp",
-        "startDate": "2017-04-19",
-        "endDate": "2017-04-21",
+        "startDate": "2018-03-28",
+        "endDate": "2018-03-30",
         "country": "France",
         "region": 4,
         "city": "Rennes",
@@ -21,8 +21,8 @@
     {
         "id": 2,
         "name": "Devoxx France",
-        "startDate": "2017-04-5",
-        "endDate": "2017-04-7",
+        "startDate": "2018-04-18",
+        "endDate": "2018-04-20",
         "country": "France",
         "region": 4,
         "city": "Paris",
