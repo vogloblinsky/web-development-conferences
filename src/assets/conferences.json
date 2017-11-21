@@ -622,5 +622,37 @@
             "lat": 52.325,
             "lng": 15.134
         }
+    },
+    {
+        "id": 37,
+        "name": "DeltaV",
+        "startDate": "2018-05-10",
+        "endDate": "2018-05-11",
+        "country": "England",
+        "region": 4,
+        "city": "London",
+        "state": "Greater London",
+        "website": "https://2018.deltavconf.com/",
+        "twitter": "deltavconf",
+        "gps": {
+            "lat": 51.507222,
+            "lng": -0.1275
+        }
+    },
+    {
+        "id": 38,
+        "name": "Devoxx UK",
+        "startDate": "2018-05-09",
+        "endDate": "2018-05-11",
+        "country": "England",
+        "region": 4,
+        "city": "London",
+        "state": "Greater London",
+        "website": "https://www.devoxx.co.uk/",
+        "twitter": "DevoxxUK",
+        "gps": {
+            "lat": 51.507222,
+            "lng": -0.1275
+        }
     }
 ]
