@@ -109,8 +109,8 @@
     {
         "id": 7,
         "name": "Devfest Lille",
-        "startDate": "2017-06-09",
-        "endDate": "2017-06-09",
+        "startDate": "2018-06-21",
+        "endDate": "2018-06-21",
         "country": "France",
         "region": 4,
         "city": "Lille",
@@ -127,8 +127,8 @@
     {
         "id": 8,
         "name": "Nordic.js",
-        "startDate": "2017-09-07",
-        "endDate": "2017-09-08",
+        "startDate": "2018-09-06",
+        "endDate": "2018-09-07",
         "country": "Sweden",
         "region": 4,
         "city": "Stockholm",
