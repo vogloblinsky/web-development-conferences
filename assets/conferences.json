@@ -1,0 +1,690 @@
+[
+    {
+        "id": 1,
+        "name": "Breizhcamp",
+        "startDate": "2018-03-28",
+        "endDate": "2018-03-30",
+        "country": "France",
+        "region": 4,
+        "city": "Rennes",
+        "state": "Brittany",
+        "website": "http://www.breizhcamp.org",
+        "logo": "http://www.breizhcamp.org/img/logo.png",
+        "youtube": "BreizhCamp",
+        "youtubeMode": "user",
+        "twitter": "breizhcamp",
+        "gps": {
+            "lat": 48.11198043823242,
+            "lng": -1.6742899417877197
+        }
+    },
+    {
+        "id": 2,
+        "name": "Devoxx France",
+        "startDate": "2018-04-18",
+        "endDate": "2018-04-20",
+        "country": "France",
+        "region": 4,
+        "city": "Paris",
+        "state": "Ile-de-France",
+        "website": "https://devoxx.fr",
+        "logo": "https://devoxx.fr/assets/images/logo_devoxx_france_150_33.png",
+        "twitter": "DevoxxFR",
+        "youtube": "UCsVPQfo5RZErDL41LoWvk0A",
+        "gps": {
+            "lat": 48.85340881347656,
+            "lng": 2.34879994392395
+        }
+    },
+    {
+        "id": 3,
+        "name": "ng-conf",
+        "startDate": "2018-04-18",
+        "endDate": "2018-04-20",
+        "country": "United States",
+        "region": 6,
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "website": "https://www.ng-conf.org",
+        "twitter": "ngconf",
+        "youtube": "ngconfvideos",
+        "youtubeMode": "user",
+        "gps": {
+            "lat": 40.760780334472656,
+            "lng": -111.89105224609375
+        }
+    },
+    {
+        "id": 4,
+        "name": "Angular Camp",
+        "startDate": "2018-07-18",
+        "endDate": "2018-07-20",
+        "country": "Spain",
+        "region": 4,
+        "city": "Barcelona",
+        "state": "Catalogna",
+        "website": "https://angularcamp.org",
+        "twitter": "AngularCamp",
+        "youtube": "UCVLlWT1NZZEJs4A67XgObnQ",
+        "gps": {
+            "lat": 41.388790130615234,
+            "lng": 2.158989906311035
+        }
+    },
+    {
+        "id": 5,
+        "name": "NG-NL",
+        "startDate": "2017-03-15",
+        "endDate": "2017-03-16",
+        "country": "Netherlands",
+        "region": 4,
+        "city": "Amsterdam",
+        "state": "North Holland",
+        "website": "https://ng-nl.org",
+        "logo": "https://ng-nl.org/images/logos/ng-nl-logo.png",
+        "twitter": "ngnlconf",
+        "youtube": "UCBLyK9z883f-nr_4KW6gngw",
+        "gps": {
+            "lat": 52.37403106689453,
+            "lng": 4.889689922332764
+        }
+    },
+    {
+        "id": 6,
+        "name": "ng-viking",
+        "startDate": "2018-03-01",
+        "endDate": "2018-03-02",
+        "country": "Denmark",
+        "region": 4,
+        "city": "Copenhagen",
+        "state": "Capital",
+        "website": "https://ngvikings.org",
+        "logo": "https://ngvikings.org/images/logo-white.png",
+        "twitter": "ngVikingsConf",
+        "gps": {
+            "lat": 55.675941467285156,
+            "lng": 12.565529823303223
+        }
+    },
+    {
+        "id": 7,
+        "name": "Devfest Lille",
+        "startDate": "2018-06-21",
+        "endDate": "2018-06-21",
+        "country": "France",
+        "region": 4,
+        "city": "Lille",
+        "state": "Hauts-de-France",
+        "website": "https://devfest.gdglille.org/",
+        "twitter": "GDGLille",
+        "youtube": "francegdg",
+        "youtubeMode": "user",
+        "gps": {
+            "lat": 50.637222,
+            "lng": 3.063333
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nordic.js",
+        "startDate": "2018-09-06",
+        "endDate": "2018-09-07",
+        "country": "Sweden",
+        "region": 4,
+        "city": "Stockholm",
+        "state": "Södermanland and Uppland",
+        "website": "http://nordicjs.com/",
+        "twitter": "nordicjs",
+        "youtube": "nordicjs",
+        "youtubeMode": "user",
+        "gps": {
+            "lat": 59.329444,
+            "lng": 18.068611
+        }
+    },
+    {
+        "id": 9,
+        "name": "Devfest Nantes",
+        "startDate": "2018-10-18",
+        "endDate": "2018-10-19",
+        "country": "France",
+        "region": 4,
+        "city": "Nantes",
+        "state": "Pays de la Loire",
+        "website": "https://devfest.gdgnantes.com/",
+        "twitter": "devfestnantes",
+        "youtube": "francegdg",
+        "youtubeMode": "user",
+        "gps": {
+            "lat": 47.21806,
+            "lng": -1.55278
+        }
+    },
+    {
+        "id": 10,
+        "name": "dotJS",
+        "startDate": "2017-11-30",
+        "endDate": "2017-12-01",
+        "country": "France",
+        "region": 4,
+        "city": "Paris",
+        "state": "Ile-de-France",
+        "website": "https://www.dotjs.io/",
+        "twitter": "dotJS",
+        "youtube": "dotconferences",
+        "youtubeMode": "user",
+        "gps": {
+            "lat": 48.85340881347656,
+            "lng": 2.34879994392395
+        }
+    },
+    {
+        "id": 11,
+        "name": "ngeurope",
+        "startDate": "2018-02-01",
+        "endDate": "2018-02-02",
+        "country": "France",
+        "region": 4,
+        "city": "Paris",
+        "state": "Ile-de-France",
+        "website": "https://ngeurope.org/",
+        "twitter": "ngEurope",
+        "youtube": "UCEGUP3TJJfMsEM_1y8iviSQ",
+        "gps": {
+            "lat": 48.85340881347656,
+            "lng": 2.34879994392395
+        }
+    },
+    {
+        "id": 12,
+        "name": "web2day",
+        "startDate": "2018-06-13",
+        "endDate": "2018-06-15",
+        "country": "France",
+        "region": 4,
+        "city": "Nantes",
+        "state": "Pays de la Loire",
+        "website": "https://web2day.co/",
+        "twitter": "web2day",
+        "youtube": "UCCzfEV7NDD5OvkE3Ua7pcxQ",
+        "gps": {
+            "lat": 47.21806,
+            "lng": -1.55278
+        }
+    },
+    {
+        "id": 13,
+        "name": "Riviera DEV",
+        "startDate": "2018-05-02",
+        "endDate": "2018-05-04",
+        "country": "France",
+        "region": 4,
+        "city": "Sophia Antipolis",
+        "state": "Provence-Alpes-Côte d'Azur",
+        "website": "http://rivieradev.fr/",
+        "twitter": "RivieraDEV",
+        "youtube": "RivieraJUG",
+        "youtubeMode": "user",
+        "gps": {
+            "lat": 43.6155,
+            "lng": 7.055
+        }
+    },
+    {
+        "id": 14,
+        "name": "AngularConnect",
+        "startDate": "2018-11-06",
+        "endDate": "2018-11-07",
+        "country": "England",
+        "region": 4,
+        "city": "London",
+        "state": "Greater London",
+        "website": "http://angularconnect.com/",
+        "twitter": "AngularConnect",
+        "youtube": "UCzrskTiT_ObAk3xBkVxMz5g",
+        "gps": {
+            "lat": 51.507222,
+            "lng": -0.1275
+        }
+    },
+    {
+        "id": 15,
+        "name": "MiXiT",
+        "startDate": "2018-04-19",
+        "endDate": "2018-04-20",
+        "country": "France",
+        "region": 4,
+        "city": "Lyon",
+        "state": "Rhône",
+        "website": "https://mixitconf.org/",
+        "twitter": "mixitconf",
+        "gps": {
+            "lat": 45.759723,
+            "lng": 4.842223
+        }
+    },
+    {
+        "id": 16,
+        "name": "NG-BE",
+        "startDate": "2018-12-06",
+        "endDate": "2018-12-07",
+        "country": "Belgium",
+        "region": 4,
+        "city": "Ghent",
+        "state": "Flemish Region",
+        "website": "https://ng-be.org/",
+        "twitter": "ngbeconf",
+        "youtube": "UCnMfZM2S3QgbFvOyet5PMmQ",
+        "gps": {
+            "lat": 51.05,
+            "lng": 3.733333
+        }
+    },
+    {
+        "id": 17,
+        "name": "Angular Beers",
+        "startDate": "2017-04-05",
+        "endDate": "2017-04-06",
+        "country": "Spain",
+        "region": 4,
+        "city": "Barcelona",
+        "state": "Catalogna",
+        "website": "https://angularbeers.org/",
+        "logo": "https://angularbeers.org/img/other/angular-beers-logo.png",
+        "youtube": "UCbnKictY3ELQwJ2scWwXhJw",
+        "twitter": "AngularBeers",
+        "gps": {
+            "lat": 41.388790130615234,
+            "lng": 2.158989906311035
+        }
+    },
+    {
+        "id": 18,
+        "name": "BlendWebMix",
+        "startDate": "2018-10-24",
+        "endDate": "2018-10-25",
+        "country": "France",
+        "region": 4,
+        "city": "Lyon",
+        "state": "Rhône",
+        "website": "http://www.blendwebmix.com/",
+        "logo": "http://www.blendwebmix.com/static/apps/blend_templates/images/logo.png",
+        "twitter": "blendwebmix",
+        "youtube": "UCVA4ZOoyUyLB_LS6flBjhRg",
+        "gps": {
+            "lat": 45.759723,
+            "lng": 4.842223
+        }
+    },
+    {
+        "id": 19,
+        "name": "Paris Web",
+        "startDate": "2018-10-4",
+        "endDate": "2018-10-5",
+        "country": "France",
+        "region": 4,
+        "city": "Paris",
+        "state": "Ile-de-France",
+        "website": "https://www.paris-web.fr/",
+        "logo": "https://www.paris-web.fr/img/logo-parisweb.png",
+        "twitter": "ParisWeb",
+        "vimeo": "parisweb",
+        "gps": {
+            "lat": 48.85340881347656,
+            "lng": 2.34879994392395
+        }
+    },
+    {
+        "id": 20,
+        "name": "dotCSS",
+        "startDate": "2017-11-30",
+        "endDate": "2017-12-01",
+        "country": "France",
+        "region": 4,
+        "city": "Paris",
+        "state": "Ile-de-France",
+        "website": "https://www.dotcss.io/",
+        "logo": "https://www.dotcss.io/static/images/logo-dotcss.png",
+        "twitter": "dotCSS",
+        "youtube": "dotconferences",
+        "youtubeMode": "user",
+        "gps": {
+            "lat": 48.85340881347656,
+            "lng": 2.34879994392395
+        }
+    },
+    {
+        "id": 21,
+        "name": "bdx.io",
+        "startDate": "2017-11-10",
+        "endDate": "2017-11-10",
+        "country": "France",
+        "region": 4,
+        "city": "Bordeaux",
+        "state": "Nouvelle-Aquitaine",
+        "website": "http://www.bdx.io/",
+        "logo": "http://www.bdx.io/5aa13ad42dfe154f44a1e379f79c23aa.png",
+        "twitter": "bdxio",
+        "youtube": "UCA7pEYY0BlgCdpbnjhCDezQ",
+        "gps": {
+            "lat": 44.837912,
+            "lng": -0.579541
+        }
+    },
+    {
+        "id": 22,
+        "name": "ng-japan",
+        "startDate": "2017-06-17",
+        "endDate": "2017-06-17",
+        "country": "Japan",
+        "region": 2,
+        "city": "Tokyo",
+        "state": "Kantō",
+        "website": "http://ngjapan.org/",
+        "logo": "http://ngjapan.org/images/logo.png",
+        "twitter": "ng_japan",
+        "gps": {
+            "lat": 35.670724,
+            "lng": 139.771907
+        }
+    },
+    {
+        "id": 23,
+        "name": "CycleConf",
+        "startDate": "2017-04-21",
+        "endDate": "2017-04-23",
+        "country": "Sweden",
+        "region": 4,
+        "city": "Stockholm",
+        "state": "Södermanland and Uppland",
+        "website": "http://cycleconf.com/",
+        "logo": "http://cycleconf.com/img/cyclejs_logo.svg",
+        "twitter": "cycleconf",
+        "gps": {
+            "lat": 59.329444,
+            "lng": 18.068611
+        }
+    },
+    {
+        "id": 24,
+        "name": "ng-poland",
+        "startDate": "2017-11-20",
+        "endDate": "2017-11-21",
+        "country": "Poland",
+        "region": 4,
+        "city": "Warsaw",
+        "state": "Masovian",
+        "website": "http://www.ng-poland.pl/",
+        "twitter": "ngPolandConf",
+        "youtube": "UC55UiwMH_7PVcKrkriXSHuw",
+        "gps": {
+            "lat": 52.233333,
+            "lng": 21.016667
+        }
+    },
+    {
+        "id": 25,
+        "name": "js-poland",
+        "startDate": "2017-06-19",
+        "endDate": "2017-06-19",
+        "country": "Poland",
+        "region": 4,
+        "city": "Warsaw",
+        "state": "Masovian",
+        "website": "http://www.js-poland.pl/",
+        "logo": "http://www.js-poland.pl/app/assets/img/logo_a.png",
+        "twitter": "jsPolandConf",
+        "gps": {
+            "lat": 52.233333,
+            "lng": 21.016667
+        }
+    },
+    {
+        "id": 26,
+        "name": "ng-cruise",
+        "startDate": "2017-05-29",
+        "endDate": "2017-06-02",
+        "country": "United States",
+        "region": 6,
+        "city": "Miami",
+        "state": "Florida",
+        "website": "https://ngcruise.com",
+        "logo": "https://ngcruise.com/assets/img/NG-Cruise-Logo-Normal.png",
+        "twitter": "ngcruise",
+        "gps": {
+            "lat": 25.783333,
+            "lng": -80.216667
+        }
+    },
+    {
+        "id": 27,
+        "name": "React Conf",
+        "startDate": "2017-03-13",
+        "endDate": "2017-03-14",
+        "country": "United States",
+        "region": 6,
+        "city": "Santa Clara",
+        "state": "California",
+        "website": "http://conf.reactjs.org/",
+        "logo": "http://conf.reactjs.org/static/media/reactconf-logo-2c-black@2x.68a3c052.png",
+        "twitter": "ngcruise",
+        "gps": {
+            "lat": 37.354444,
+            "lng": -121.969167
+        }
+    },
+    {
+        "id": 28,
+        "name": "Devoxx US",
+        "startDate": "2017-03-21",
+        "endDate": "2017-03-23",
+        "country": "United States",
+        "region": 6,
+        "city": "San Jose",
+        "state": "California",
+        "website": "https://devoxx.us/",
+        "logo": "https://s3-us-west-1.amazonaws.com/devoxxus/wp-content/uploads/2015/08/03171309/DEVOXX_WHITE_TRANSPARENT.png",
+        "twitter": "DevoxxUS",
+        "gps": {
+            "lat": 37.304167,
+            "lng": -121.872778
+        }
+    },
+    {
+        "id": 29,
+        "name": "Devfest Toulouse",
+        "startDate": "2017-09-28",
+        "endDate": "2017-09-28",
+        "country": "France",
+        "region": 4,
+        "city": "Toulouse",
+        "state": "Occitanie",
+        "website": "https://devfesttoulouse.fr/",
+        "twitter": "DevFestToulouse",
+        "gps": {
+            "lat": 43.604482,
+            "lng": 1.443962
+        }
+    },
+    {
+        "id": 30,
+        "name": "Angular MIX",
+        "startDate": "2018-10-10",
+        "endDate": "2018-10-12",
+        "country": "United States",
+        "region": 6,
+        "city": "Orlando",
+        "state": "Florida",
+        "website": "http://www.angularmix.com/",
+        "twitter": "angularmix",
+        "gps": {
+            "lat": 28.533611,
+            "lng": -81.386667
+        }
+    },
+    {
+        "id": 31,
+        "name": "JSUnconf",
+        "startDate": "2017-03-25",
+        "endDate": "2017-03-26",
+        "country": "Germany",
+        "region": 4,
+        "city": "Hamburg",
+        "state": "",
+        "website": "http://2017.jsunconf.eu/",
+        "twitter": "jsunconf",
+        "logo": "http://2017.jsunconf.eu/images/jsunconflogo.svg",
+        "gps": {
+            "lat": 53.565278,
+            "lng": 10.001389
+        }
+    },
+    {
+        "id": 32,
+        "name": "React London",
+        "startDate": "2017-03-25",
+        "endDate": "2017-03-26",
+        "country": "England",
+        "region": 4,
+        "city": "London",
+        "state": "Greater London",
+        "website": "https://react.london/",
+        "twitter": "ReactLondon_",
+        "youtube": "UCV4LIEkC0S9KUAPDm2g4mNQ",
+        "gps": {
+            "lat": 51.507222,
+            "lng": -0.1275
+        }
+    },
+    {
+        "id": 33,
+        "name": "AngularUP",
+        "startDate": "2018-06-21",
+        "endDate": "2018-06-21",
+        "country": "Israël",
+        "region": 5,
+        "city": "Tel Aviv",
+        "state": "Tel Aviv",
+        "website": "http://angular-up.com/",
+        "twitter": "AngularUP",
+        "youtube": "UCBmp3Hpuq1RAsgiyJ6vr-FA",
+        "gps": {
+            "lat": 32.066667,
+            "lng": 34.783333
+        }
+    },
+    {
+        "id": 34,
+        "name": "Snowcamp",
+        "startDate": "2018-01-24",
+        "endDate": "2018-01-27",
+        "country": "France",
+        "region": 4,
+        "city": "Grenoble",
+        "state": "Auvergne-Rhône-Alpes",
+        "website": "http://snowcamp.io/",
+        "twitter": "SnowCampIO",
+        "gps": {
+            "lat": 45.1317,
+            "lng": 6.1647
+        }
+    },
+    {
+        "id": 35,
+        "name": "ngAtlanta",
+        "startDate": "2018-01-30",
+        "endDate": "2018-02-02",
+        "country": "United States",
+        "region": 6,
+        "city": "Atlanta",
+        "state": "Georgia",
+        "website": "http://ng-atl.org/",
+        "twitter": "ngAtlConf",
+        "gps": {
+            "lat": 33.6912,
+            "lng": -83.9534
+        }
+    },
+    {
+        "id": 36,
+        "name": "JSConf EU",
+        "startDate": "2018-03-02",
+        "endDate": "2018-03-03",
+        "country": "Germany",
+        "region": 4,
+        "city": "Berlin",
+        "state": "",
+        "website": "https://2018.jsconf.eu/",
+        "twitter": "jsconfeu",
+        "youtube": "jsconfeu",
+        "youtubeMode": "user",
+        "gps": {
+            "lat": 52.325,
+            "lng": 15.134
+        }
+    },
+    {
+        "id": 37,
+        "name": "DeltaV",
+        "startDate": "2018-05-10",
+        "endDate": "2018-05-11",
+        "country": "England",
+        "region": 4,
+        "city": "London",
+        "state": "Greater London",
+        "website": "https://2018.deltavconf.com/",
+        "twitter": "deltavconf",
+        "gps": {
+            "lat": 51.507222,
+            "lng": -0.1275
+        }
+    },
+    {
+        "id": 38,
+        "name": "Devoxx UK",
+        "startDate": "2018-05-09",
+        "endDate": "2018-05-11",
+        "country": "England",
+        "region": 4,
+        "city": "London",
+        "state": "Greater London",
+        "website": "https://www.devoxx.co.uk/",
+        "twitter": "DevoxxUK",
+        "gps": {
+            "lat": 51.507222,
+            "lng": -0.1275
+        }
+    },
+    {
+        "id": 39,
+        "name": "Touraine Tech",
+        "startDate": "2018-02-23",
+        "endDate": "2018-02-23",
+        "country": "France",
+        "region": 4,
+        "city": "Tours",
+        "state": "Centre-Val de Loire",
+        "website": "https://touraine.tech/",
+        "twitter": "tourainetech",
+        "gps": {
+            "lat": 47.364692,
+            "lng": 0.684746
+        }
+    },
+    {
+        "id": 40,
+        "name": "http://bestofweb.paris/",
+        "startDate": "2018-06-7",
+        "endDate": "2018-06-8",
+        "country": "France",
+        "region": 4,
+        "city": "Paris",
+        "state": "Ile-de-France",
+        "website": "http://bestofweb.paris/",
+        "twitter": "bestofwebconf",
+        "gps": {
+            "lat": 48.85340881347656,
+            "lng": 2.34879994392395
+        }
+    }
+]
