@@ -57,8 +57,8 @@
     {
         "id": 4,
         "name": "Angular Camp",
-        "startDate": "2017-07-06",
-        "endDate": "2017-07-07",
+        "startDate": "2018-07-18",
+        "endDate": "2018-07-20",
         "country": "Spain",
         "region": 4,
         "city": "Barcelona",
@@ -250,8 +250,8 @@
     {
         "id": 15,
         "name": "MiXiT",
-        "startDate": "2017-04-20",
-        "endDate": "2017-04-21",
+        "startDate": "2018-04-19",
+        "endDate": "2018-04-20",
         "country": "France",
         "region": 4,
         "city": "Lyon",
@@ -266,8 +266,8 @@
     {
         "id": 16,
         "name": "NG-BE",
-        "startDate": "2017-11-08",
-        "endDate": "2017-11-09",
+        "startDate": "2018-12-06",
+        "endDate": "2018-12-07",
         "country": "Belgium",
         "region": 4,
         "city": "Ghent",
@@ -301,8 +301,8 @@
     {
         "id": 18,
         "name": "BlendWebMix",
-        "startDate": "2017-11-02",
-        "endDate": "2017-11-03",
+        "startDate": "2018-10-24",
+        "endDate": "2018-10-25",
         "country": "France",
         "region": 4,
         "city": "Lyon",
@@ -319,8 +319,8 @@
     {
         "id": 19,
         "name": "Paris Web",
-        "startDate": "2017-10-5",
-        "endDate": "2017-10-7",
+        "startDate": "2018-10-4",
+        "endDate": "2018-10-5",
         "country": "France",
         "region": 4,
         "city": "Paris",
@@ -509,8 +509,8 @@
     {
         "id": 30,
         "name": "Angular MIX",
-        "startDate": "2017-10-10",
-        "endDate": "2017-10-12",
+        "startDate": "2018-10-10",
+        "endDate": "2018-10-12",
         "country": "United States",
         "region": 6,
         "city": "Orlando",
@@ -559,8 +559,8 @@
     {
         "id": 33,
         "name": "AngularUP",
-        "startDate": "2017-06-25",
-        "endDate": "2017-06-25",
+        "startDate": "2018-06-21",
+        "endDate": "2018-06-21",
         "country": "Israël",
         "region": 5,
         "city": "Tel Aviv",
@@ -653,6 +653,38 @@
         "gps": {
             "lat": 51.507222,
             "lng": -0.1275
+        }
+    },
+    {
+        "id": 39,
+        "name": "Touraine Tech",
+        "startDate": "2018-02-23",
+        "endDate": "2018-02-23",
+        "country": "France",
+        "region": 4,
+        "city": "Tours",
+        "state": "Centre-Val de Loire",
+        "website": "https://touraine.tech/",
+        "twitter": "tourainetech",
+        "gps": {
+            "lat": 47.364692,
+            "lng": 0.684746
+        }
+    },
+    {
+        "id": 40,
+        "name": "http://bestofweb.paris/",
+        "startDate": "2018-06-7",
+        "endDate": "2018-06-8",
+        "country": "France",
+        "region": 4,
+        "city": "Paris",
+        "state": "Ile-de-France",
+        "website": "http://bestofweb.paris/",
+        "twitter": "bestofwebconf",
+        "gps": {
+            "lat": 48.85340881347656,
+            "lng": 2.34879994392395
         }
     }
 ]
